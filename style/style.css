@@ -1,0 +1,193 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#imagCircle
+{
+    max-width: 50%;
+    height: auto;
+}
+.subTitle
+{
+    color:#212529;
+    font-size: large;
+    font-weight: bold;
+
+}
+.blue-divider
+{
+    width: 100px;
+    height: 2px;
+    margin: 0 auto;
+    transition: all .5s ease-in .4s;
+    background-color: #008080;
+}
+.withe-divider
+{
+    width: 100px;
+    height: 2px;
+    margin: 10px auto 0 auto;
+    background-color: white;
+}
+
+.skilIcon
+{
+    color: #008080;
+}
+.skilIcon:hover
+{
+    color: #212529;
+    background-color: #008080;
+}
+
+
+
+.timeline
+{
+    position: relative;
+
+    padding: 30px 10px;
+}
+.timeline:before
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+
+    width: 5px;
+    margin-left: -2.5px;
+
+    content: ' ';
+
+    background-color: white;
+}
+.timeline > li
+{
+    position: relative;
+
+    margin-bottom: 20px;
+
+    list-style: none;
+}
+.timeline > li:after
+{
+    clear: both;
+}
+.timeline > .nav-link::before,
+.timeline > li:after
+{
+    display: table;
+
+    content: ' ';
+}
+.timeline li .timeline-badge
+{
+    font-size: 20px;
+    line-height: 50px;
+
+    position: absolute;
+    top: 16px;
+    left: 50%;
+
+    width: 50px;
+    margin-left: -25px;
+
+    text-align: center;
+
+    color: #008080;
+    border-radius: 50%;
+    background-color: white;
+}
+.timeline-panel-container
+{
+    float: left;
+
+    width: 50%;
+}
+.timeline-panel-container-inverted
+{
+    float: right;
+
+    width: 50%;
+}
+.timeline-panel
+{
+    position: relative;
+
+    float: right;
+
+    width: 80%;
+    margin-right: 40px;
+    padding: 20px 25px;
+
+    border: 1px solid #d4d4d4;
+    border-radius: 7px;
+    background-color: white;
+    box-shadow: 0 1px 6px rgba(0,0,0, .175);
+}
+.timeline-panel-container-inverted .timeline-panel
+{
+    float: left;
+
+    margin-left: 40px;
+}
+.timeline-panel:after
+{
+    position: absolute;
+    top: 27px;
+    right: -14px;
+
+    display: inline-block;
+
+    content: ' ';
+
+    border-top: 14px solid transparent;
+    border-right: 0 solid transparent;
+    border-bottom: 14px solid transparent;
+    border-left: 14px solid #fff;
+}
+
+.timeline-panel-container-inverted .timeline-panel:after
+{
+    right: auto;
+    left: -28px;
+
+    border-right: 14px solid #fff;
+}
+.timeline-heading h3
+{
+    font-size: 20px;
+
+    margin-top: 5px;
+}
+.timeline-heading h4
+{
+    color: tomato;
+}
+
+.contactItem:hover{
+    color: white !important;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: tomato; 
+    border-radius: 10px;
+}
+
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #ee4b2e; 
+}
+/* section{
+    margin-top: 30px !important;
+}
+#section4
+{
+    margin-bottom: 20px !important;
+    height: 500px;
+} */
